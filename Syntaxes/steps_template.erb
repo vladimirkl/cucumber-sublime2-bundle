@@ -7,7 +7,7 @@
     <string>steps.rb</string>
   </array>
   <key>foldingStartMarker</key>
-  <string>^\s*\b(A|AN|Aber|Adott|Akkor|Ale|Aleshores|Ali|Allora|Alors|Als|Ama|Amennyiben|Amikor|An|And|Andyall|Angenommen|Anrhegediga|Apabila|Ataké|Atesa|Atunci|Atès|Avast|Aye|BUT|Bagi|Bet|Biết|Blimey|Buh|But|Butyall|Cal|Cand|Cept|Cho|Cuando|Când|DEN|Dada|Dadas|Dado|Dados|Dan|Dann|Dar|Data|Date|Datefiind|Datfiind|Dati|Datifiind|Dato|Daţifiind|Dațifiind|De|Dengan|Denyousegotta|Diyelimki|Do|Donada|Donat|Donitaĵo|Dun|Duota|E|Eeldades|Ef|En|Entao|Entonces|Então|Et|Etantdonné|Etantdonnée|Etantdonnées|Etantdonnés|Eğerki|Fakat|Gangway|Gegebensei|Gegeven|Gitt|Given|Givenyall|Givet|Givun|Ha|I|ICANHAZ|Ir|Ja|Jeśli|Jeżeli|Kad|Kada|Kai|Kaj|Když|Kemudian|Ketika|Keď|Khi|Kui|Kuid|Kun|Letgoandhaul|Lorsqu|Lorsque|Ma|Maar|Mais|Majd|Mając|Maka|Mas|Men|Mutta|N|Nhưng|Niin|När|Når|Och|Og|Oletetaan|Ond|Onda|Oraz|Ozaman|Pak|Pero|Però|Pokiaľ|Pokud|Pryd|Quan|Quand|Quando|Se|Sed|Si|Siis|Soit|Stel|Så|Tad|Tada|Tak|Tapi|Tetapi|Then|Thenyall|Thì|Un|Und|Ve|Và|WEN|Wenn|When|Whenyall|Wtedy|Wun|Y|Yagotta|Yaknowhow|Yna|Youseknowlikewhen|Youseknowwhenyousegot|Zadan|Zadani|Zadano|Zadate|Zadato|Zakładając|Zatati|a|an|awer|dann|mä|ugeholl|wann|És|Étantdonné|Étantdonnée|Étantdonnées|Étantdonnés|Þegar|Þá|Şi|Și|І|А|Агар|Але|Али|Аммо|Атакож|Бирок|Ва|Дадено|Дано|Допустим|Если|Задате|Задати|Задато|И|Кад|Када|Когато|Когда|Коли|Ктомуже|Лекин|Нехай|Но|Онда|Припустимо|Припустимощо|Пусть|Та|То|Тогда|Тоді|Унда|Якщо|אבל|אז|אזי|בהינתן|וגם|כאשר|اذاً|بفرض|ثم|عندما|لكن|متى|و|かつ|しかし|ただし|ならば|もし|並且|但し|但是|假如|假定|假設|假设|前提|同时|同時|并且|当|當|而且|那么|那麼|그러면|그리고|단|만약|만일|먼저|조건|하지만|def)</string>
+  <string>^\s*\b(<%= Gherkin::I18n.code_keywords.join('|') %>|def)</string>
   <key>foldingStopMarker</key>
   <string>^\s*(end)$</string>
   <key>keyEquivalent</key>
@@ -18,7 +18,7 @@
   <array>
     <dict>
       <key>match</key>
-      <string>\b(A|AN|Aber|Adott|Akkor|Ale|Aleshores|Ali|Allora|Alors|Als|Ama|Amennyiben|Amikor|An|And|Andyall|Angenommen|Anrhegediga|Apabila|Ataké|Atesa|Atunci|Atès|Avast|Aye|BUT|Bagi|Bet|Biết|Blimey|Buh|But|Butyall|Cal|Cand|Cept|Cho|Cuando|Când|DEN|Dada|Dadas|Dado|Dados|Dan|Dann|Dar|Data|Date|Datefiind|Datfiind|Dati|Datifiind|Dato|Daţifiind|Dațifiind|De|Dengan|Denyousegotta|Diyelimki|Do|Donada|Donat|Donitaĵo|Dun|Duota|E|Eeldades|Ef|En|Entao|Entonces|Então|Et|Etantdonné|Etantdonnée|Etantdonnées|Etantdonnés|Eğerki|Fakat|Gangway|Gegebensei|Gegeven|Gitt|Given|Givenyall|Givet|Givun|Ha|I|ICANHAZ|Ir|Ja|Jeśli|Jeżeli|Kad|Kada|Kai|Kaj|Když|Kemudian|Ketika|Keď|Khi|Kui|Kuid|Kun|Letgoandhaul|Lorsqu|Lorsque|Ma|Maar|Mais|Majd|Mając|Maka|Mas|Men|Mutta|N|Nhưng|Niin|När|Når|Och|Og|Oletetaan|Ond|Onda|Oraz|Ozaman|Pak|Pero|Però|Pokiaľ|Pokud|Pryd|Quan|Quand|Quando|Se|Sed|Si|Siis|Soit|Stel|Så|Tad|Tada|Tak|Tapi|Tetapi|Then|Thenyall|Thì|Un|Und|Ve|Và|WEN|Wenn|When|Whenyall|Wtedy|Wun|Y|Yagotta|Yaknowhow|Yna|Youseknowlikewhen|Youseknowwhenyousegot|Zadan|Zadani|Zadano|Zadate|Zadato|Zakładając|Zatati|a|an|awer|dann|mä|ugeholl|wann|És|Étantdonné|Étantdonnée|Étantdonnées|Étantdonnés|Þegar|Þá|Şi|Și|І|А|Агар|Але|Али|Аммо|Атакож|Бирок|Ва|Дадено|Дано|Допустим|Если|Задате|Задати|Задато|И|Кад|Када|Когато|Когда|Коли|Ктомуже|Лекин|Нехай|Но|Онда|Припустимо|Припустимощо|Пусть|Та|То|Тогда|Тоді|Унда|Якщо|אבל|אז|אזי|בהינתן|וגם|כאשר|اذاً|بفرض|ثم|عندما|لكن|متى|و|かつ|しかし|ただし|ならば|もし|並且|但し|但是|假如|假定|假設|假设|前提|同时|同時|并且|当|當|而且|那么|那麼|그러면|그리고|단|만약|만일|먼저|조건|하지만)\b</string>
+      <string>\b(<%= Gherkin::I18n.code_keywords.join('|') %>)\b</string>
       <key>name</key>
       <string>keyword.other.step.cucumber</string>
     </dict>
@@ -58,7 +58,7 @@
     </dict>
     <dict>
       <key>begin</key>
-      <string>\b(?&lt;=A|AN|Aber|Adott|Akkor|Ale|Aleshores|Ali|Allora|Alors|Als|Ama|Amennyiben|Amikor|An|And|Andyall|Angenommen|Anrhegediga|Apabila|Ataké|Atesa|Atunci|Atès|Avast|Aye|BUT|Bagi|Bet|Biết|Blimey|Buh|But|Butyall|Cal|Cand|Cept|Cho|Cuando|Când|DEN|Dada|Dadas|Dado|Dados|Dan|Dann|Dar|Data|Date|Datefiind|Datfiind|Dati|Datifiind|Dato|Daţifiind|Dațifiind|De|Dengan|Denyousegotta|Diyelimki|Do|Donada|Donat|Donitaĵo|Dun|Duota|E|Eeldades|Ef|En|Entao|Entonces|Então|Et|Etantdonné|Etantdonnée|Etantdonnées|Etantdonnés|Eğerki|Fakat|Gangway|Gegebensei|Gegeven|Gitt|Given|Givenyall|Givet|Givun|Ha|I|ICANHAZ|Ir|Ja|Jeśli|Jeżeli|Kad|Kada|Kai|Kaj|Když|Kemudian|Ketika|Keď|Khi|Kui|Kuid|Kun|Letgoandhaul|Lorsqu|Lorsque|Ma|Maar|Mais|Majd|Mając|Maka|Mas|Men|Mutta|N|Nhưng|Niin|När|Når|Och|Og|Oletetaan|Ond|Onda|Oraz|Ozaman|Pak|Pero|Però|Pokiaľ|Pokud|Pryd|Quan|Quand|Quando|Se|Sed|Si|Siis|Soit|Stel|Så|Tad|Tada|Tak|Tapi|Tetapi|Then|Thenyall|Thì|Un|Und|Ve|Và|WEN|Wenn|When|Whenyall|Wtedy|Wun|Y|Yagotta|Yaknowhow|Yna|Youseknowlikewhen|Youseknowwhenyousegot|Zadan|Zadani|Zadano|Zadate|Zadato|Zakładając|Zatati|a|an|awer|dann|mä|ugeholl|wann|És|Étantdonné|Étantdonnée|Étantdonnées|Étantdonnés|Þegar|Þá|Şi|Și|І|А|Агар|Але|Али|Аммо|Атакож|Бирок|Ва|Дадено|Дано|Допустим|Если|Задате|Задати|Задато|И|Кад|Када|Когато|Когда|Коли|Ктомуже|Лекин|Нехай|Но|Онда|Припустимо|Припустимощо|Пусть|Та|То|Тогда|Тоді|Унда|Якщо|אבל|אז|אזי|בהינתן|וגם|כאשר|اذاً|بفرض|ثم|عندما|لكن|متى|و|かつ|しかし|ただし|ならば|もし|並且|但し|但是|假如|假定|假設|假设|前提|同时|同時|并且|当|當|而且|那么|那麼|그러면|그리고|단|만약|만일|먼저|조건|하지만) (')</string>
+      <string>\b(?&lt;=<%= Gherkin::I18n.code_keywords.join('|') %>) (')</string>
       <key>captures</key>
       <dict>
         <key>1</key>
@@ -92,7 +92,7 @@
     </dict>
     <dict>
       <key>begin</key>
-      <string>\b(?&lt;=A|AN|Aber|Adott|Akkor|Ale|Aleshores|Ali|Allora|Alors|Als|Ama|Amennyiben|Amikor|An|And|Andyall|Angenommen|Anrhegediga|Apabila|Ataké|Atesa|Atunci|Atès|Avast|Aye|BUT|Bagi|Bet|Biết|Blimey|Buh|But|Butyall|Cal|Cand|Cept|Cho|Cuando|Când|DEN|Dada|Dadas|Dado|Dados|Dan|Dann|Dar|Data|Date|Datefiind|Datfiind|Dati|Datifiind|Dato|Daţifiind|Dațifiind|De|Dengan|Denyousegotta|Diyelimki|Do|Donada|Donat|Donitaĵo|Dun|Duota|E|Eeldades|Ef|En|Entao|Entonces|Então|Et|Etantdonné|Etantdonnée|Etantdonnées|Etantdonnés|Eğerki|Fakat|Gangway|Gegebensei|Gegeven|Gitt|Given|Givenyall|Givet|Givun|Ha|I|ICANHAZ|Ir|Ja|Jeśli|Jeżeli|Kad|Kada|Kai|Kaj|Když|Kemudian|Ketika|Keď|Khi|Kui|Kuid|Kun|Letgoandhaul|Lorsqu|Lorsque|Ma|Maar|Mais|Majd|Mając|Maka|Mas|Men|Mutta|N|Nhưng|Niin|När|Når|Och|Og|Oletetaan|Ond|Onda|Oraz|Ozaman|Pak|Pero|Però|Pokiaľ|Pokud|Pryd|Quan|Quand|Quando|Se|Sed|Si|Siis|Soit|Stel|Så|Tad|Tada|Tak|Tapi|Tetapi|Then|Thenyall|Thì|Un|Und|Ve|Và|WEN|Wenn|When|Whenyall|Wtedy|Wun|Y|Yagotta|Yaknowhow|Yna|Youseknowlikewhen|Youseknowwhenyousegot|Zadan|Zadani|Zadano|Zadate|Zadato|Zakładając|Zatati|a|an|awer|dann|mä|ugeholl|wann|És|Étantdonné|Étantdonnée|Étantdonnées|Étantdonnés|Þegar|Þá|Şi|Și|І|А|Агар|Але|Али|Аммо|Атакож|Бирок|Ва|Дадено|Дано|Допустим|Если|Задате|Задати|Задато|И|Кад|Када|Когато|Когда|Коли|Ктомуже|Лекин|Нехай|Но|Онда|Припустимо|Припустимощо|Пусть|Та|То|Тогда|Тоді|Унда|Якщо|אבל|אז|אזי|בהינתן|וגם|כאשר|اذاً|بفرض|ثم|عندما|لكن|متى|و|かつ|しかし|ただし|ならば|もし|並且|但し|但是|假如|假定|假設|假设|前提|同时|同時|并且|当|當|而且|那么|那麼|그러면|그리고|단|만약|만일|먼저|조건|하지만) (/)</string>
+      <string>\b(?&lt;=<%= Gherkin::I18n.code_keywords.join('|') %>) (/)</string>
       <key>captures</key>
       <dict>
         <key>1</key>
@@ -122,7 +122,7 @@
     </dict>
     <dict>
       <key>begin</key>
-      <string>\b(?&lt;=A|AN|Aber|Adott|Akkor|Ale|Aleshores|Ali|Allora|Alors|Als|Ama|Amennyiben|Amikor|An|And|Andyall|Angenommen|Anrhegediga|Apabila|Ataké|Atesa|Atunci|Atès|Avast|Aye|BUT|Bagi|Bet|Biết|Blimey|Buh|But|Butyall|Cal|Cand|Cept|Cho|Cuando|Când|DEN|Dada|Dadas|Dado|Dados|Dan|Dann|Dar|Data|Date|Datefiind|Datfiind|Dati|Datifiind|Dato|Daţifiind|Dațifiind|De|Dengan|Denyousegotta|Diyelimki|Do|Donada|Donat|Donitaĵo|Dun|Duota|E|Eeldades|Ef|En|Entao|Entonces|Então|Et|Etantdonné|Etantdonnée|Etantdonnées|Etantdonnés|Eğerki|Fakat|Gangway|Gegebensei|Gegeven|Gitt|Given|Givenyall|Givet|Givun|Ha|I|ICANHAZ|Ir|Ja|Jeśli|Jeżeli|Kad|Kada|Kai|Kaj|Když|Kemudian|Ketika|Keď|Khi|Kui|Kuid|Kun|Letgoandhaul|Lorsqu|Lorsque|Ma|Maar|Mais|Majd|Mając|Maka|Mas|Men|Mutta|N|Nhưng|Niin|När|Når|Och|Og|Oletetaan|Ond|Onda|Oraz|Ozaman|Pak|Pero|Però|Pokiaľ|Pokud|Pryd|Quan|Quand|Quando|Se|Sed|Si|Siis|Soit|Stel|Så|Tad|Tada|Tak|Tapi|Tetapi|Then|Thenyall|Thì|Un|Und|Ve|Và|WEN|Wenn|When|Whenyall|Wtedy|Wun|Y|Yagotta|Yaknowhow|Yna|Youseknowlikewhen|Youseknowwhenyousegot|Zadan|Zadani|Zadano|Zadate|Zadato|Zakładając|Zatati|a|an|awer|dann|mä|ugeholl|wann|És|Étantdonné|Étantdonnée|Étantdonnées|Étantdonnés|Þegar|Þá|Şi|Și|І|А|Агар|Але|Али|Аммо|Атакож|Бирок|Ва|Дадено|Дано|Допустим|Если|Задате|Задати|Задато|И|Кад|Када|Когато|Когда|Коли|Ктомуже|Лекин|Нехай|Но|Онда|Припустимо|Припустимощо|Пусть|Та|То|Тогда|Тоді|Унда|Якщо|אבל|אז|אזי|בהינתן|וגם|כאשר|اذاً|بفرض|ثم|عندما|لكن|متى|و|かつ|しかし|ただし|ならば|もし|並且|但し|但是|假如|假定|假設|假设|前提|同时|同時|并且|当|當|而且|那么|那麼|그러면|그리고|단|만약|만일|먼저|조건|하지만) (%r{)</string>
+      <string>\b(?&lt;=<%= Gherkin::I18n.code_keywords.join('|') %>) (%r{)</string>
       <key>captures</key>
       <dict>
         <key>1</key>
